@@ -3,7 +3,7 @@
  <img src="https://colab.research.google.com/assets/colab-badge.svg" width="110" height="50" border="10"  />
 </a>
  
-<a href="https://colab.research.google.com/drive/18TuqsIswsKJWptspMKGgs2r_e9QsNzzN" target="_blank">
+<a href="https://colab.research.google.com/drive/12cEMUiXhcIGe_80oT2iqCIFxN4TAiiRs" target="_blank">
  <img src="https://colab.research.google.com/assets/colab-badge.svg" width="110" height="50" border="10" align="right"/>
 </a>
 </p>   
@@ -42,4 +42,12 @@ Var[X] = nxpx(1-p) = 4x0.5 x (1-0.5)= 1
 
 ### Açıklama:
 
+Başarı olasılığı p olan bir Bernoulli deneyinin aynı şartlar altında (bağımsız olarak) n kez tekrarlanması ile oluşan deneylerdir.
 
+P(X=k)= C(n,k)p^k(1-p)^n-k , k= 0,1,2......,n
+
+E[X]= np
+
+Var[X]= np(1-p)
+
+Hesaplamalar sırasında kullanılacak olan paranın yazı gelme olasılığı "p=0.5" olarak alınır. Soruda istenilene göre ilk önce 0, 1 ,2, ve 3 tane yazı gelme olasılıkları sırası ile binomials kuralına göre hesaplanır. Daha sonra beklenen değer "E[X]" ve son olarak da binomials kuralına göre varyans "Var[X]" hesaplanır.
