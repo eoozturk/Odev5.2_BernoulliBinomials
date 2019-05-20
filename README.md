@@ -14,6 +14,18 @@ Bernoulli ve Binomials ile İlgili Soru ve Çözümü
 ## Soru 1: Bernoulli
 ### Çözüm:
 ### Açıklama:
+Bir deneyde başarı ve başarısızlık diye nitelendirilen iki sonuçla ilgilenildiğinde bu deneye (iki sonuçlu) Bernoulli deneyi ya da Bernoulli denemesi denir.
+
+Başarı olasılığı: p ,  Başarısızlık olasılığı: 1-p= q
+
+P(X=k)= p^k(1-p)^1-x, k=0,1
+
+E[X]= p
+
+Var[X]= pq
+
+
+
 
 ## Soru 2: Binomials
 Bir madeni para N kere atılmaktadır. 0 tane,1 tane,2 tane ve 3 tane yazı gelme olasılıkları sırasıyla nedir? Beklenen değer(Aritmetik ortalama) ve Varyansını hesaplayınız. <a href="http://content.lms.sabis.sakarya.edu.tr/Uploads/48396/27636/13._%C3%B6zel_olas%C4%B1l%C4%B1k_da%C4%9F%C4%B1l%C4%B1mlar%C4%B1.pdf" target="_blank">Soru Kaynağı</a>
