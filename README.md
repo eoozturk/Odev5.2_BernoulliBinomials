@@ -9,10 +9,24 @@
 </p>   
 
 # Bernoulli ve Binomials
-Bernoulli ve Binomials ile İlgili Soru ve Çözümü
+Bernoulli ve Binomials ile İlgili Soru ve Çözümü, <a href="http://content.lms.sabis.sakarya.edu.tr/Uploads/48396/27636/13._%C3%B6zel_olas%C4%B1l%C4%B1k_da%C4%9F%C4%B1l%C4%B1mlar%C4%B1.pdf" target="_blank">Soru Kaynağı</a>
 
 ## Soru 1: Bernoulli
+Bir öğrenci istatistik dersinden geçme olasılığının 0.7 olduğuna inanmaktadır. Olasılık dağılımının fonksiyonunu yazınız. Beklenen Değer "E[X]" ve Varyansını "Var[X]" hesaplayınız.
+
 ### Çözüm:
+Öğrenci dersten geçerse X rassal değişkeni k = 1 ve kalırsa k = 0 değerini alırsa, X rassal değişkeninin olasılık dağılımı şöyle yazılabilir:
+
+P (k=1) = 0.7 ve P (k=0) = 0.3 ise,
+
+P(X=1)= 0.7^1 x (1-0.7)^0= 0.7^1 x 0.3^0= 0.7
+
+P(X=0)= 0.7^0 x (1-0.7)^1= 0.7^0 x 0.3^1= 0.3
+
+E[X] = p = 0.7
+
+Var[X]= p (1 – p) = 0.7 x 0.3= 0.21
+
 ### Açıklama:
 Bir deneyde başarı ve başarısızlık diye nitelendirilen iki sonuçla ilgilenildiğinde bu deneye (iki sonuçlu) Bernoulli deneyi ya da Bernoulli denemesi denir.
 
@@ -24,11 +38,11 @@ E[X]= p
 
 Var[X]= pq
 
-
-
+Soruda ilk olarak başarı ve başarısızlık durumları p ve q belirlenir. Daha sonra bernoulli kuralına göre başarı ve başarısızlığın olasılık dağılım fonksiyonları P(X=1) ve P(X=0) yazılır. Daha sonra ise yine bernoulli kuralına göre beklenen değer "E[X]" ve varyans "Var[X]" hesaplanır.
 
 ## Soru 2: Binomials
-Bir madeni para N kere atılmaktadır. 0 tane,1 tane,2 tane ve 3 tane yazı gelme olasılıkları sırasıyla nedir? Beklenen değer(Aritmetik ortalama) ve Varyansını hesaplayınız. <a href="http://content.lms.sabis.sakarya.edu.tr/Uploads/48396/27636/13._%C3%B6zel_olas%C4%B1l%C4%B1k_da%C4%9F%C4%B1l%C4%B1mlar%C4%B1.pdf" target="_blank">Soru Kaynağı</a>
+Bir madeni para N kere atılmaktadır. 0 tane,1 tane,2 tane ve 3 tane yazı gelme olasılıkları sırasıyla nedir? Beklenen değer(Aritmetik ortalama) ve Varyansını hesaplayınız. 
+
 ### Çözüm:
 N=4 için:
 
