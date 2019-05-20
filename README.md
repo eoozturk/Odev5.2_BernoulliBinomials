@@ -1,5 +1,5 @@
 <p align="left">
-<a href="https://colab.research.google.com/drive/1PGqyzuPBcYfdRK9C8_aJgtg62Jg8Dtf5" target="_blank">
+<a href="https://colab.research.google.com/drive/1YWFTjK4xxRr2ddzlfn2rCR7q1yDNABj8" target="_blank">
  <img src="https://colab.research.google.com/assets/colab-badge.svg" width="110" height="50" border="10"  />
 </a>
  
@@ -26,6 +26,8 @@ P(X=0)= 0.7^0 x (1-0.7)^1= 0.7^0 x 0.3^1= 0.3
 E[X] = p = 0.7
 
 Var[X]= p (1 – p) = 0.7 x 0.3= 0.21
+
+Soruda ilk olarak başarı ve başarısızlık durumları p ve q belirlenir. Daha sonra bernoulli kuralına göre başarı ve başarısızlığın olasılık dağılım fonksiyonları P(X=1) ve P(X=0) yazılır. Daha sonra ise yine bernoulli kuralına göre beklenen değer "E[X]" ve varyans "Var[X]" hesaplanır.
 
 ### Açıklama:
 Bir deneyde başarı ve başarısızlık diye nitelendirilen iki sonuçla ilgilenildiğinde bu deneye (iki sonuçlu) Bernoulli deneyi ya da Bernoulli denemesi denir.
