@@ -15,7 +15,7 @@ Bernoulli ve Binomials ile İlgili Soru ve Çözümü, <a href="http://content.l
 Bir öğrenci istatistik dersinden geçme olasılığının 0.7 olduğuna inanmaktadır. Olasılık dağılımının fonksiyonunu yazınız. Beklenen Değer "E[X]" ve Varyansını "Var[X]" hesaplayınız.
 
 ### Çözüm:
-Öğrenci dersten geçerse X rassal değişkeni k = 1 ve kalırsa k = 0 değerini alırsa, X rassal değişkeninin olasılık dağılımı şöyle yazılabilir:
+Öğrenci dersten geçerse X rassal değişkeni k = 1 ve kalırsa k = 0 değerini alsın:
 
 P (k=1) = 0.7 ve P (k=0) = 0.3 ise,
 
