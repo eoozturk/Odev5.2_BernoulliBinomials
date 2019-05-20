@@ -34,7 +34,7 @@ Bir deneyde başarı ve başarısızlık diye nitelendirilen iki sonuçla ilgile
 
 Başarı olasılığı: p ,  Başarısızlık olasılığı: 1-p= q
 
-P(X=k)= p^k(1-p)^1-x, k=0,1
+P(X=k)= p^k (1-p)^1-x, k=0,1
 
 E[X]= p
 
@@ -72,7 +72,7 @@ Var[X] = nxpx(1-p) = 4x0.5 x (1-0.5)= 1
 
 Başarı olasılığı p olan bir Bernoulli deneyinin aynı şartlar altında (bağımsız olarak) n kez tekrarlanması ile oluşan deneylerdir.
 
-P(X=k)= C(n,k)p^k(1-p)^n-k , k= 0,1,2......,n
+P(X=k)= C(n,k) p^k(1-p)^n-k , k= 0,1,2......,n
 
 E[X]= np
 
